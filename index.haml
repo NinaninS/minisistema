@@ -1,10 +1,42 @@
 !!!
-  %html
-    %head
-      %meta{ :charset => "utf-8" }
-      %title MINI
-      %link{ :href => '/index.css', :rel => "stylesheet", :type => "text/css"}
-      
-    %body
-      %h1
-        Hello, Git!
+%html
+  %head
+    %meta{ :charset => "utf-8" }
+    %title MINI || Pixel perfect
+    %link{ :href => '/index.css', :rel => "stylesheet", :type => "text/css"}
+		%script{ :src => "js/jquery-1.8.3.min.js"}
+		%script{ :src => "js/jquery.pixlayout.0.9.7.js"}
+		:javascript
+			$(function(){
+				$.pixlayout({clip: true, src: "template.png", show:true, center:true, top:0, left:0, pervious: false});
+			});
+	%body
+		.container_wipper
+			.inner_container#pade1
+				.first_container
+					%p#pp_text
+						If you like to Get Update, add yourself
+					%p#p_texts
+						this free smashingbuzz template for coorporate or new business will add new teaste
+					.container_getdata
+						%input{ :type =>"text", :class =>"name", :name =>"name", :value => "enter your name"}
+						%input{ :type =>"text", :class =>"email", :name =>"email", :value =>"enter your email"}
+						%input{ :type =>"button", :class =>"but_style", :value =>"Add me Now"}
+					%p#text_box
+						* Lorem ipsum dolor sit amet, ex quot timeam mei. Per aperiri impedit molestie at, privacy policy will be placed here.
+			.inner_container#pade2
+				.second_container
+					.call_container
+						%p#h1_second
+							Explore more about World best Service</p>
+					.telephon_box
+					.text_container
+						%p
+							Probatus cotidieque mea ad, eu ornatus percipit sententiae usu. Ei pri velit aeque, ne quaeque vivendum praesent sea. Ea quo modo saperet reprimique, in sed oporteat splendide, an per causae nonumes sensibus. Vis ullamcorper instructior te. Tempor corpora definitiones ne mea, in cum tale summo bonorum. Ea duo quem quodsi animal, et brute quodsi euripidis usu. Ei pri velit aeque, ne quaeque vivendum praesent sea. Ea quo modo saperet reprimique, in sed oporteat splendide, an per causae nonumes sensibus. Ea quo modo saperet reprimique, in sed oporteat splendide, an per causae nonumes sensibus.
+							%br
+						%p
+							Probatus cotidieque mea ad, eu ornatus percipit sententiae usu. Ei pri velit aeque, ne quaeque vivendum praesent sea. Ea quo modo saperet reprimique, in sed oporteat splendide, an per causae nonumes sensibus. Vis ullamcorper instructior te. Tempor corpora definitiones ne mea, in cum tale summo bonorum. Ea duo quem quodsi animal, et brute quodsi euripidis usu. Ei pri velit aeque, ne quaeque vivendum praesent sea. Ea quo modo saperet reprimique, in sed oporteat splendide, an per causae nonumes sensibus.
+				.container_getdata2
+						%input{ :type =>"text", :class =>"name", :name =>"name", :value => "enter your name"}
+						%input{ :type =>"text", :class =>"email", :name =>"email", :value =>"enter your email"}
+						%input{ :type =>"button", :class =>"but_style", :value =>"Add me Now"}

@@ -1,6 +1,171 @@
+@font-face {
+	src: url(raleway/Raleway-ExtraLightItalic.ttf);
+}
 
 body {
-margin: 0;
-padding: 0;
-font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.container_wipper {
+	width: 100%;
+	color: #ffffff;
+}
+.inner_container{
+margin: 0 auto;
+width: 1200px;
+min-height: 200px;
+}
+.first_container {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	width: 1200px;
+	background: url(rect.jpg) no-repeat;
+}
+#pade1 {
+	height: 500px;
+}
+#page2 {
+	height: 700px;
+}
+#pp_text {
+	font-size: 60px;
+	position: relative;
+	margin: 133px 0 0 91px;
+	font-family: 'Raleway-ExtraLightItalic', sans-serif;
+	font-weight: lighter;
+}
+#p_texts {
+	width: 640px;
+	margin: 28px auto 0;
+	font-size: 18px;
+	font-family: 'OpenSansLight', sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	letter-spacing: -0.5px;
+}
+.container_getdata {
+	width: 920px;
+	height: 76px;
+	border-radius: 4px;
+	margin-left: 140px;
+	margin-top: 59px;
+	background-color: #3a1110;
+	opacity: 65%;
+}
+.but_style {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'OpenSans', sans-serif;
+    letter-spacing: 2.5px;
+    padding-top: 4px;
+    padding-left: 28px;
+    display: inline-block;
+	float: left;
+	width: 221px;
+	height: 47px;
+	margin: 15px 0 0 21px;
+	background-color: #ae2c52;
+	color: #ffffff;
+	border: none;
+}
+#text_box {
+width: 647px;
+margin: 18px auto;
+font-size: 12px;
+font-family: 'MyardPro', sans-serif;
+font-weight: lighter;
+}
+.name {
+    padding-top: 1px;
+    font-size: 16px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: lighter;
+    padding-left: 18px;
+}
+.email {
+    padding-top: 1px;
+    font-size: 16px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: lighter;
+    padding-left: 19px;
+}
+input {
+    display: inline-block;
+    float: left;
+    width: 295px;
+    height: 37px;
+    margin: 16px -11px 0 20px;
+
+}
+
+.cta_bg {
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  position: absolute;
+  left: -129px;
+  top: 499px;
+  width: 1365px;
+  height: 697px;
+  z-index: 126;
+}
+.second_container {
+	margin: 0;
+	padding: 0;
+	height: 697px;
+	width: 1200px;
+	background-color: #f9f9f9;
+	position: relative;
+}
+.call_container {
+	width: 894px;
+	height: 428px;
+	margin-left: 167px;
+	padding: 0;
+}
+.telephon_box {
+	display: inline-block;
+	float: left;
+	height: 350px;
+	width: 134px;
+	background: url("tele.png") no-repeat;
+	background-size: contain;
+	margin-top: 32px;
+	margin-left: 1px;
+}
+.text_container {
+	display: inline-block;
+	float: left;
+	width: 730px;
+	height: 138px;
+	margin-left: 29px;
+	margin-top: 21px;
+}
+#h1_second {
+	font-size: 48px;
+	font-family: 'OpenSans', sans-serif;
+	font-weight: lighter;
+	margin: 0;
+	color: #404040;
+	padding-top: 111px;
+	padding-left: 9px;
+	letter-spacing: 0.2px;
+}
+.text_container p {
+	color: #404040;
+	font-size: 15px;
+	font-family: 'OpenSans', sans-serif;
+	font-weight: lighter;
+	line-height: 1.5;
+}
+.container_getdata2 {
+	width: 920px;
+	height: 76px;
+	border-radius: 4px;
+	margin-left: 140px;
+	margin-top: 144px;
+	background-color: #595959;
+	opacity: 65%;
 }
